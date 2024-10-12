@@ -1,12 +1,14 @@
-PACMAN
+PacMAn
+Description:
 
-The code creates a basic animation of a Pac-Man image that moves horizontally across the screen.
-The <button> starts the animation by setting isGameStarted to true, which triggers the movement and display of the Pac-Man image.
-Two sets of images (Pac-Man facing right and left) are alternated using setInterval, changing Pac-Man's direction based on the screen boundaries.
-Pac-Man moves at a constant speed (vel), reversing direction when it reaches the edges of the browser window.
-The image source changes every 200ms, and Pac-Man's position is updated every 20ms to create a smooth animation.
+This HTML page features a Pac-Man animation moving horizontally within a container, controlled by JavaScript for direction, mouth animation, and boundary reversal, with a continuous animation loop triggered by setInterval every 100 milliseconds.
 
+How to run the code:
 
+step1:Save the HTML file with .html extension.
 
+step2:Click the "Go Live" button.A new browser window will open, displaying Pacman animation.
 
+Future Improvemennt:
 
+Consider adding obstacles or interactive elements within the container for Pac-Man to interact with, adding sound effects, or incorporating user controls for changing Pac-Man's direction and speed,enhancing the overall user experience.
